@@ -1,0 +1,74 @@
+@media only screen and (min-width: 968px) and (max-width: 1400px) {
+  #gzlogo {
+    text-align: left;
+  }
+}
+/* Styles for screens smaller than 576px (Extra Small devices) */
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .buttonouter {
+    position: fixed;
+    bottom: 1px;
+    height: 20PX
+  }
+
+  #mainh1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 700 !important;
+    margin-top: 25%;
+  }
+
+  #gzlogo {
+    justify-content: center;
+  }
+
+  /* Responsive logo styles for extra small screens */
+  .responsive-logo {
+    height: 80px;
+    width: auto;
+  }
+
+  .book-form{
+    margin-top: 30px;
+  }
+}
+
+/* Styles for screens 576px and larger (Small devices and up) */
+@media (min-width: 576px) {
+  .responsive-logo {
+    height: 80px;
+    width: auto;
+  }
+}
+
+/* Styles for screens 1400px and larger */
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1170px;
+  }
+}
+
+
+
+@media only screen and (min-width: 968px) and (max-width: 1400px) {
+  #gzlogo {
+    text-align: left !important;
+  }
+  @media (min-width: 576px) {
+  .responsive-logo {
+    height: 80px;
+    width: auto;
+    padding: 5px;
+  }
+}
+}

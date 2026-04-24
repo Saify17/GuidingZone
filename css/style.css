@@ -1,0 +1,310 @@
+*{
+     font-family: "Inter", sans-serif;
+  
+}
+#heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: bold;
+  color: green;
+  font-size: 57px;
+}
+
+#mainh1{
+  font-family:"Inter", sans-serif;
+  font-size: 56px;
+  font-weight: 700 !important;
+  
+}
+
+h1 span {
+  color: #FF0000; /* A standard Bootstrap danger red color */
+  background-image: url('/images/underline2.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 40%
+  
+}
+h1#mainh1:hover {
+  cursor: pointer; /* Displays the finger hand icon on hover */
+  
+}
+
+
+#mainpara{
+  font-size: 22px;
+}
+
+
+#odrlist1 {
+  list-style-type: none;
+  padding-left: 0;
+  
+}
+#odrlist1 li {
+    margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#odrlist1 li i{
+  color: #FF0000;
+  margin-right: 10px;
+  
+}
+.button2{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  
+  border: none;
+}
+.btn2{
+  background-color: red;
+}
+.bannerform{
+  padding: 40px; /* Using a fixed value like 40px is usually better than 40% for form padding */
+}
+
+.bannerform h3{
+  font-size: 18px; /* Added 'px' unit */
+}
+
+
+.form-control:focus {
+    /* Set a solid red border */
+    border-color: #dc3545; 
+    /* Create a red shadow with some transparency for the glow effect */
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); 
+}
+
+.form-check-input:focus {
+    /* Set a solid red border for the checkbox when focused */
+    border-color: #dc3545;
+    /* Create a red shadow for the checkbox */
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+
+
+
+
+
+.bannerform {
+    padding: 40px; /* Increased padding for a more spacious feel */
+    border-radius: 15px; /* Softer, more modern rounded corners */
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Deeper, more visible shadow */
+    border: none; /* Remove default border */
+}
+
+/* Header within the form */
+.bannerform h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Paragraph within the form */
+.bannerform p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Style for all input fields and select */
+.bannerform .form-control,
+.bannerform .form-select {
+    border-radius: 8px; /* Consistent rounded corners for inputs */
+    padding: 12px 15px; /* More padding for better spacing */
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease-in-out; /* Smooth transition for focus effects */
+}
+
+/* Red focus style for inputs, select, and checkbox */
+.bannerform .form-control:focus,
+.bannerform .form-select:focus,
+.bannerform .form-check-input:focus {
+    border-color: #dc3545; /* Red border on focus */
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); /* Red glowing shadow */
+}
+
+/* Checkbox styling */
+.bannerform .form-check-input:checked {
+    background-color: #dc3545; /* Red background when checked */
+    border-color: #dc3545;
+}
+
+/* Submit button styling */
+.bannerform .btn-primary {
+    background-color: #dc3545; /* Bold red background */
+    border-color: #dc3545; /* Red border */
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    width: 100%; /* Make button full width */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover state for the button */
+.bannerform .btn-primary:hover {
+    background-color: #c82333; /* Slightly darker red on hover */
+    border-color: #bd2130;
+}
+
+/* Minor text for form instructions */
+.bannerform .form-text {
+    font-size: 14px;
+    color: #999;
+}
+
+#gzlogo{
+  size: 20px; 
+}
+
+
+
+
+
+.b5-boxes:hover{
+  cursor: pointer;
+
+}
+
+                                              /* key highlight section  */
+
+/* Section background and heading styles */
+.heightlights-section {
+  background-color: rgb(255, 233, 233);
+}
+
+.heightlights-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: rgb(255, 0, 43);
+}
+
+.heightlights-section p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Card styles */
+.highlight-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Text inside cards */
+.bullet-points h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bullet-points p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+
+
+                                                        /* Top Career Options */
+.career-section {
+  background-color: #f9fbff;
+}
+
+.career-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.career-card:hover {
+  transform: translateY(-5px);
+}
+
+.career-card h5 {
+  color: #1a1a1a;
+}
+
+.career-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.icon img {
+  filter: hue-rotate(180deg) saturate(1.2);
+}
+
+
+
+
+                                                          /* Section: Certificate Promo */
+
+/* Section: Certificate Promo */
+.certificate-section {
+  background-color: #f0f8ff; /* Soft blue background */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Heading */
+.certificate-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* Benefit block layout */
+.certificate-section .d-flex {
+  align-items: flex-start;
+}
+
+/* Icon styling */
+.certificate-section .icon-box i {
+  color: green; /* Green checkmark or icon */
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+/* Benefit title */
+.certificate-section h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #007bff; /* Bootstrap blue */
+}
+
+/* Benefit description */
+.certificate-section p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* CTA Button */
+.certificate-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* Certificate image */
+.certificate-section img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+                                                        
